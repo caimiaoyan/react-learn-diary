@@ -1,17 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            我是april_cai的个人站点
-        </p>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={home()} />
+      <Route path="/about" element={about()} />
+    </Routes>
   );
 }
 
 export default App;
+
+function home(){
+  return '我是april_cai的个人站点'
+}
+
+function about(){
+  return '站点介绍'
+}
