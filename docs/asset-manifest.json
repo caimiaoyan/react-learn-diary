@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3a058ac6.js",
-    "static/js/787.bbf9697e.chunk.js": "/static/js/787.bbf9697e.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3a058ac6.js.map": "/static/js/main.3a058ac6.js.map",
-    "787.bbf9697e.chunk.js.map": "/static/js/787.bbf9697e.chunk.js.map"
+    "main.css": "/react-learn-diary/static/css/main.073c9b0a.css",
+    "main.js": "/react-learn-diary/static/js/main.0378e5eb.js",
+    "static/js/787.bbf9697e.chunk.js": "/react-learn-diary/static/js/787.bbf9697e.chunk.js",
+    "static/media/logo.svg": "/react-learn-diary/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-learn-diary/index.html",
+    "main.073c9b0a.css.map": "/react-learn-diary/static/css/main.073c9b0a.css.map",
+    "main.0378e5eb.js.map": "/react-learn-diary/static/js/main.0378e5eb.js.map",
+    "787.bbf9697e.chunk.js.map": "/react-learn-diary/static/js/787.bbf9697e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3a058ac6.js"
+    "static/js/main.0378e5eb.js"
   ]
 }
