@@ -4,3 +4,4 @@
 - [前端开发者路线](https://roadmap.sh/frontend)
 - [实现一个简易react](https://juejin.cn/post/7152093251619520549)
 - [build-your-own-react](https://pomb.us/build-your-own-react/)
+- [如何自定义 JSX 的实现](https://juejin.cn/post/7023782009248055310)
