@@ -6,3 +6,4 @@
 - [build-your-own-react](https://pomb.us/build-your-own-react/)
 - [如何自定义 JSX 的实现](https://juejin.cn/post/7023782009248055310)
 - [hooks的本质](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
+- [SSR 服务稳定性优化：通用降级方案](https://juejin.cn/post/7021362370739961887)
