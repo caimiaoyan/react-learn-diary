@@ -348,6 +348,17 @@ module.exports = function (webpackEnv) {
           loader: require.resolve('source-map-loader'),
         },
         {
+          test: /.js$/,
+          use: [
+              {
+                  loader: require.resolve('./loader/sync'),
+                  options: {
+                      showCopyright: true
+                  }
+              }
+          ],
+        },
+        {
           // "oneOf" will traverse all following loaders until one will
           // match the requirements. When no loader matches it will fall
           // back to the "file" loader at the end of the loader list.
@@ -462,17 +473,7 @@ module.exports = function (webpackEnv) {
                 inputSourceMap: shouldUseSourceMap,
               },
             },
-            {
-              test: /.js$/,
-              use: [
-                  {
-                      loader: require.resolve('./loader/sync'),
-                      options: {
-                          showCopyright: true
-                      }
-                  }
-              ],
-            },
+            
             // "postcss" loader applies autoprefixer to our CSS.
             // "css" loader resolves paths in CSS and adds assets as dependencies.
             // "style" loader turns CSS into JS modules that inject <style> tags.

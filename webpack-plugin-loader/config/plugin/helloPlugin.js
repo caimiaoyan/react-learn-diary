@@ -9,7 +9,7 @@ class StampPlugin { // 创建一个时间戳插件
       HtmlWebpackPlugin.getHooks(compilation).beforeAssetTagGeneration.tap('StampWebpackPlugin2',
         (htmlPluginData, cb) => {
           // console.log(htmlPluginData);
-          console.info('htmlPluginData', htmlPluginData)
+          //console.info('htmlPluginData', htmlPluginData)
           let jsSrc = htmlPluginData.assets.js[0]
           // 直接修改js数组内的元素
           htmlPluginData.assets.js[0] = `${jsSrc}?${new Date().getTime()}`
@@ -25,14 +25,11 @@ class StampPlugin { // 创建一个时间戳插件
       //   })
     })
 
-    console.log('Object.keys(compiler.hooks)',Object.keys(compiler.hooks))
-
-    
+    //console.log('Object.keys(compiler.hooks)',Object.keys(compiler.hooks))
 
     compiler.hooks.done.tap('myPlugin', (params) => {
-      console.log('compiler.hooks.done执行')
-      console.log('params', params)
-      //console.log('params', params)
+      // console.log('compiler.hooks.done执行')
+      // console.log('params', params)
     });
   }
 }
